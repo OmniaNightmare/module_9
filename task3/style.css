@@ -1,0 +1,44 @@
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+}
+#trafficLight {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+  }
+  #trafficLight2{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+#trafficLight3{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+  }

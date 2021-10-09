@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS-Start. 2 задача</title>
+    <style>
+      body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      p{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        border: 2px solid rgb(104, 194, 111);
+        border-radius: 10px;
+        background-color: rgb(212, 245, 212);
+        transition: .5s;
+        padding: 5px 20px;
+        width: 500px;
+        justify-content: center;
+      }
+      code{
+          color: rgb(29, 11, 3);
+          
+      }
+      .box{
+        height: 30px;
+        width: 40%;
+        background-color: rgb(199, 199, 199);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .but:hover{
+        background-color: rgb(102, 194, 102);
+        color: white;
+        cursor: pointer;
+      }
+
+  </style>
+</head>
+<body>
+<p class="but" id="consoleLog">console.log</p>
+<div class="box">
+  <code>
+    Пример использования команды console.log
+  </code>
+</div>
+
+<p class="but" id="alert">Alert()</p>
+<div class="box">
+  <code>
+    Пример использования команды alert
+  </code>
+</div>
+
+<p class="but" id="prompt">Prompt()</p>
+<div class="box">
+  <code>
+    Пример использования команды prompt
+  </code>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
